@@ -1,4 +1,5 @@
 -- teleports to top of the map barrier
+-- this is map dependent
 -- https://www.roblox.com/games/10469988463/BOMBLINE-Alpha
 
 local service = setmetatable({ }, {
