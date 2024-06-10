@@ -28,4 +28,4 @@ local map = workspace:WaitForChild("Map");
 
 local barrier = map:WaitForChild("Map"):WaitForChild("Barrier"):WaitForChild("Barrier");
 
-character:MoveTo((barrier.CFrame * CFrame.new(0, barrier.Size.Y, 0)).Position);
+character:PivotTo(barrier.CFrame * CFrame.new(0, barrier.Size.Y, 0));
